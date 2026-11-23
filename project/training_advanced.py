@@ -31,7 +31,7 @@ lightcurves = load_dataset(repo, "lightcurves", split="full", streaming=True)
 
 rows_read = 0
 
-total_rows = len(lightcurves)
+total_rows = 158198
 start_time = perf_counter()
 for row in lightcurves:
     rows_read += 1
